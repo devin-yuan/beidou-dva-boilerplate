@@ -1,0 +1,47 @@
+{
+  "name": "beidou-dva-boilerplate",
+  "version": "1.0.8",
+  "description": "beidou with dva boilerplate",
+  "scripts": {
+    "start": "beidou start",
+    "debug": "beidou debug",
+    "stop": "beidou stop",
+    "dev": "EGG_SERVER_ENV=local beidou dev --port=7002",
+    "dev:test": "EGG_SERVER_ENV=unittest beidou dev --port=7002",
+    "dev:pro": "EGG_SERVER_ENV=prod beidou dev --port=7002",
+    "build": "beidou build",
+    "build:dev": "beidou build --dev",
+    "build:node": "beidou build --target=node",
+    "lint": "eslint --fix --ext .jsx,.js app client config"
+  },
+  "author": "",
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0-rc.1",
+    "beidou-cli": "^1.0.8",
+    "beidou-core": "^1.0.8",
+    "beidou-view-react": "^1.0.8",
+    "dva": "^2.4.0",
+    "egg-validate": "^2.0.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.11.0",
+    "eslint-config-beidou": "^1.0.8",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-react": "^7.5.1",
+    "webpack": "^4.17.2"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "license": "MIT",
+  "boilerplate": {
+    "name": "beidou-example-simple",
+    "version": "1.0.8",
+    "description": "beidou example simple"
+  }
+}
