@@ -46,5 +46,5 @@ then navigate to [http://127.0.0.1:6001/](http://127.0.0.1:6001/)
 
 ## License
 
-[MIT](LICENSE.md)
+[MIT](LICENSE)
 
