@@ -1,14 +1,14 @@
-# beidou-dva-boilerplate
+# [beidou-dva-boilerplate](https://github.com/devin-yuan/beidou-dva-boilerplate)
 
 基于beidou和dva搭建的服务端渲染 - 通用脚手架
 
-## Install
+## 安装依赖
 
 ```bash
 $ yarn install
 ```
 
-## Start
+## 启动项目
 
 ```bash
 $ npm start
@@ -16,7 +16,7 @@ $ npm start
 
 then navigate to [http://127.0.0.1:6001/](http://127.0.0.1:6001/)
 
-## Basic Usage
+## 基本用法
 
 * add a new page in /client folder, eg. `/client/test.jsx`
 * start app: `npm start`
@@ -43,4 +43,3 @@ then navigate to [http://127.0.0.1:6001/](http://127.0.0.1:6001/)
 ## License
 
 [MIT](LICENSE)
-
